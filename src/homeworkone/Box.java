@@ -14,7 +14,7 @@ public interface Box {
 
     void allInformationSweet(); // вывести список и параметр каждой
 
-    void reduceWeight();
+    void reduceWeight(int maxWeightBox);
 
-    void reduceCost();
+    void reduceCost(int maxCostWeight);
 }

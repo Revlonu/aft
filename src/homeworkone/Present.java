@@ -80,8 +80,8 @@ public class Present implements Box {
     }
 
     @Override
-    public void reduceWeight() {
-        while (this.allWeightSweet() > 500){
+    public void reduceWeight(int maxWeightBox) {
+        while (this.allWeightSweet() > maxWeightBox){
             int indexMin = this.present.length;
             for(int i = 0; i < this.present.length; i++){
                 if(this.present[i] != null){
@@ -102,8 +102,8 @@ public class Present implements Box {
     }
 
     @Override
-    public void reduceCost() {
-        while (this.allCostSweet() > 700){
+    public void reduceCost(int maxCostWeight) {
+        while (this.allCostSweet() > maxCostWeight){
             int indexMin = this.present.length;
             for(int i = 0; i < this.present.length; i++){
                 if(this.present[i] != null) {
