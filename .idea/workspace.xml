@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17d23d56-d540-46d5-a456-79036ec3d5b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/homeworkone/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworkone/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworktwo/GetRequestCheckText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AFT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AFT.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homeworkone/Present.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworkone/Present.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,13 +37,44 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/httpcomponents-client-4.5.12/lib" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="homeworkone" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GetRequestCheckText">
+    <configuration name="GetRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworktwo.GetRequest" />
+      <module name="AFT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeworktwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRequestCheckText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworktwo.GetRequestCheckText" />
+      <module name="AFT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeworktwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homeworkone.Main" />
       <module name="AFT" />
@@ -57,7 +90,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetRequestCheckText" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GetRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -91,26 +126,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1593802356648" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1593899716630">
+    <state x="811" y="298" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1593956186693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1593899716630" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1593899716630">
+    <state x="811" y="298" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1593956186693" />
+    <state x="-762" y="353" key="FileChooserDialogImpl" timestamp="1593956661411">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-762" y="353" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1593956661411" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1593956970278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1593899716630" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1593899716630">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1593956970278" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1593956970278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1593899716630" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1593899716630">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1593956970278" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1593956970278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1593899716630" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1593898407169">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1593956970278" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1593956970278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1593898407169" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1593956970278" />
+    <state x="-1127" y="123" key="SettingsEditor" timestamp="1593956662754">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1127" y="123" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1593956662754" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1593953791008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1593953791008" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1593799782437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

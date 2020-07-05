@@ -98,12 +98,12 @@ public class Present implements Box {
                 deleteIndexSweet(indexMin);
             }
         }
-        System.out.println("Подарок не превышает вес: 700 грамм");
+        System.out.println("Подарок не превышает вес: " + maxWeightBox +" грамм");
     }
 
     @Override
-    public void reduceCost(int maxCostWeight) {
-        while (this.allCostSweet() > maxCostWeight){
+    public void reduceCost(int maxCostBox) {
+        while (this.allCostSweet() > maxCostBox){
             int indexMin = this.present.length;
             for(int i = 0; i < this.present.length; i++){
                 if(this.present[i] != null) {
@@ -120,6 +120,6 @@ public class Present implements Box {
                 deleteIndexSweet(indexMin);
             }
         }
-        System.out.println("Стоимость подарка не превышает: 500 рублей");
+        System.out.println("Стоимость подарка не превышает: " + maxCostBox + " рублей");
     }
 }

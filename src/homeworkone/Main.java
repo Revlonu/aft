@@ -34,14 +34,14 @@ public class Main {
         presentOne.addSweet(dove);
         presentOne.addSweet(honeyCake);
 
-        presentOne.reduceWeight(500);
+        presentOne.reduceWeight(1000);
         System.out.println("");
 
         System.out.println("Добавляем подарки и исключаем с наименьшой стоимостью, пока подарок не будет превышать норму!");
         presentOne.addSweet(dove);
         presentOne.addSweet(raffaello);
 
-        presentOne.reduceCost(700);
+        presentOne.reduceCost(1000);
 
 
     }
