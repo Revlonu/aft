@@ -17,5 +17,15 @@
         <jarDirectory url="file://$MODULE_DIR$/httpcomponents-client-4.5.12/lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/utils/json-20200518.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="com.google.code.gson:gson:2.8.6" level="project" />
   </component>
 </module>
